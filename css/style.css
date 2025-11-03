@@ -1,0 +1,117 @@
+/* 🌐 ================== BASE GLOBAL ================== */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f6ff;
+  color: #333;
+}
+
+/* 🤖 ================== ENCABEZADO PRINCIPAL ================== */
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  position: relative;
+}
+
+/* 🔵 LOGO - UCompensar */
+.logo img {
+  width: 90px;      /* Ajusta tamaño visual sin deformar */
+  height: auto;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+/* 🚀 ================== MENÚ DE NAVEGACIÓN ================== */
+nav {
+  background-color: #003366;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+}
+
+nav a {
+  color: white;                 /* Contraste legible sobre azul */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffcc00;               /* Destaca en dorado IA-style */
+}
+
+/* 🌈 ================== SECCIÓN HERO ================== */
+.hero {
+  background: linear-gradient(120deg, #004aad, #0099ff);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* 💡 ================== BLOQUE DE BENEFICIOS ================== */
+.benefits {
+  background-color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.benefits h2 {
+  color: #004aad;
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.benefit-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.benefit {
+  background-color: #f2f6ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  width: 260px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.benefit:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.benefit img {
+  height: 70px;
+  margin-bottom: 15px;
+}
+
+.benefit h3 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.benefit p {
+  color: #555;
+  font-size: 0.95em;
+}
+
+/* ⚡ ================== PIE DE PÁGINA ================== */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 50px;
+  font-size: 0.9em;
+}
